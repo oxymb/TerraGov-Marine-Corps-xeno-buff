@@ -60,7 +60,6 @@ GLOBAL_LIST_INIT(boiler_glob_image_list, list(
 		if(!do_after(X, 1 SECONDS, IGNORE_HELD_ITEM, null, BUSY_ICON_GENERIC) || (X.xeno_flags & XENO_ZOOMED))
 			return
 		X.zoom_in(11)
-		..()
 
 // ***************************************
 // *********** Gas type toggle
